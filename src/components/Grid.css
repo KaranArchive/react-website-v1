@@ -1,0 +1,16 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Three columns with equal width */
+    gap: 10px; /* Gap between rows and columns */
+    background: #e5eaf5;
+  }
+  
+  .grid-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Three columns with equal width */
+  }
+  
+  .grid-cell {
+    padding: 10px;
+    border: 1px solid #f7f4f4;
+  }

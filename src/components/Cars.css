@@ -1,0 +1,13 @@
+.carousel-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Example: Set the height to fill the viewport */
+  }
+  
+  /* Additional styles for the Carousel content if needed */
+  .carousel .slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
