@@ -13,23 +13,23 @@ const CardsSlider = () => {
   };
 
   return (
-    <div className="cards-slider">
+    <div className="cards-slider" style={{width: '100%', textAlign: 'center'}}>
       <h1>Featured Cards</h1>
       <Slider {...sliderSettings}>
         <div className="cards-slider-item">
           <h2>Card 1</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          <img src="ROPWWFI.jpg" alt="Card 1" />
+          <img src="images/ROPWWFI.jpg" alt="Card 1" />
         </div>
         <div className="cards-slider-item">
           <h2>Card 2</h2>
           <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          <img src="IOT1.jpg" alt="Card 2" />
+          <img src="images/IOT1.jpg" alt="Card 2" />
         </div>
         <div className="cards-slider-item">
           <h2>Card 3</h2>
           <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-          <img src="ROPWWFI.jpg" alt="Card 3" />
+          <img src="images/ROPWWFI.jpg" alt="Card 3" />
         </div>
       </Slider>
     </div>
